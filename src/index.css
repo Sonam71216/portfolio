@@ -1,0 +1,76 @@
+@import "tailwindcss"; 
+
+:root{
+   --main-color: #000;
+   --main-bg-color:#201F1C;
+   --main-text-color:#C4C4C4;
+   --text-y-color:#D3AF37;
+   --main-btn-color:#D3AF37;
+   --btn-text-color:#000000;
+   --btn-accent-color:#D3AF37;
+}
+html{ scroll-behavior: smooth;}
+body{background-color: var(--main-color);}
+.mainTitle{ padding-bottom:10px;}
+.mainTitle h1{ font-size:50px; line-height:60px; color:var(--main-text-color); margin: 0px; padding: 0;}
+.mainTitle h1.title{ font-size:60px;}
+.mainTitle h1 span{color:#d3af37}
+.mainTitle .top-line{color:var(--main-text-color); font-size:14px; }    
+.mainTitle p{color:var(--main-text-color); font-size:16px; }    
+.top-line{background-color: #333; border-radius: 30px; border: 1px solid #555555; display: inline; padding:4px 20px;}
+.bnr-sec .right-side {position: relative;}
+.bnr-sec .right-side .frontend {    position: absolute;    background-color: #fad86c;    border-radius: 30px;    border: 1px solid #d3af37;
+    color: #333;    padding: 3px 15px;    font-size: 14px;    right: 8%;    top: 60%;}
+.bnr-sec .right-side .ui {    position: absolute;    background-color: #fad86c;    border-radius: 30px;    border: 1px solid #d3af37;
+    color: #333;    padding: 3px 15px;    font-size: 14px;    right:20%;    top: 80%;}
+.bnr-sec .right-side .graphic {    position: absolute;    background-color: #fad86c;    border-radius: 30px;    border: 1px solid #d3af37;
+    color: #333;    padding: 3px 15px;    font-size: 14px;    left: 9%;    top: 70%;}
+/*-----------------services-----------------*/
+.services{ margin-block: 20px;}
+.services .ser-box{background-color: var(--main-bg-color); color:var(--main-text-color);
+     padding:20px; border-radius:10px; border:1px solid var(--main-bg-color); transition-duration: 3s;}  
+.services .ser-box:hover{background-color: transparent; border:1px solid #D3AF37; transition-duration: 3s;
+    }  
+.services .ser-box h3{font-size:20px; font-weight: 600;}
+.services .ser-box .icon img { border: 2px solid #5a5a5a;    padding: 8px;    border-radius: 30px; position: absolute; 
+   right:20px ; top:20px; transform: rotate(-45deg); transition-duration: 2s;}
+.services .ser-box .icon img:hover { transform: rotate(0deg); transition-duration: 400ms; border: 2px solid #D3AF37; }
+.services .ser-box  {position: relative;}
+
+/*-----------------services-end----------------*/
+.pro-sec .pro-box {  border: 1px solid #5a5a5a; border-radius:10px}
+.pro-sec .pro-box p {top:10px; left:10px;     background-color: #d5bc73;    border-radius: 30px;    display: inline;
+    font-size: 14px;    padding: 2px 15px;    border: 1px solid #d3af37;}
+
+/*-----------------experience----------------*/
+.expr-sec .tools img{text-align:center;text-align: center;    width: 50px;    height: 50px;    margin: 0 auto;    margin-bottom: 10px;
+    object-fit: contain;}
+.expr-sec .details{object-fit: contain;}
+.expr-sec .companies-name .dText .years{ border: 2px solid #333;    border-radius: 30px;    font-size: 12px;    padding: 2px 10px;
+    background-color: #363636;}
+
+.expr-sec .companies-name .details img{object-fit: contain;}
+.expr-sec .exDetails .text-box{border:1px solid #000000; transition-duration: 1s;}
+.expr-sec .exDetails .text-box:hover{border:1px solid #d3af37;  transition-duration: 1s;}
+
+/*-----------------contact----------------*/
+.contact-from select option.p-text{ color: #6f6f6f;}
+.contact-from input[type="checkbox"] {  transform: scale(1.5);}
+.contact-form select option.disabled{color:#333;}
+/*-----------------contact-end----------------*/
+.footer-sec .copyright{border-top:1px solid #474747;}
+
+
+
+/**---------------media-queries-------------------**/
+@media only screen and (max-width:767px){
+   .mainTitle h1{ font-size:36px; line-height:40px;}
+   .mainTitle h1.title{ font-size:36px; line-height:40px;}
+.mainTitle .top-line{ font-size:12px; }
+.expr-sec .companies-name .dText .years{   display: inline-block;        margin: 4px 0;}
+    }
+
+@media only screen and (max-width:479px){
+   .mainTitle h1{ font-size:28px; line-height:30px;}
+.mainTitle p{ font-size:14px; }
+}
