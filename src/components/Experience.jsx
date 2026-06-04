@@ -16,7 +16,7 @@ import webcloud from '../assets/images/icons/webcloud.png'
 
 function Experience() {
     return (
-        <section className="expr-sec py-8 bg-[var(--main-bg-color)] md:py-18 px-4 md:px-0 " id='about'>
+        <section className="expr-sec py-8 bg-[var(--main-bg-color)] md:py-18 md:px-6 lg:px-4 px-6" id='about'>
 
             <div className='max-w-7xl mx-auto'>
                 <div className="mainTitle">
