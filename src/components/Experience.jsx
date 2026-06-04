@@ -47,7 +47,7 @@ function Experience() {
                         <div className="dText relative w-full">
                             <h4 className='text-[18px]'>Hitbullseye</h4>
                             <p className='text-[14px]'>Front-end Developer & UI/UX Designer</p>
-                            <div className='years absolute right-0 top-0'><p> Sep 2022 - Present</p></div>
+                            <div className='years md:absolute right-0 top-0'><p> Sep 2022 - Present</p></div>
                         </div>
                     </div>
                       <div className="details flex gap-4 text-[var(--main-text-color)] bg-[var(--main-bg-color)] p-2 m-2 rounded-md">
@@ -55,7 +55,7 @@ function Experience() {
                         <div className="dText relative w-full">
                            <h4 className='text-[18px]'>Enterprice Web cloud</h4>
                             <p className='text-[14px]'>Web & Graphic Designer</p>
-                            <div className='years absolute right-0 top-0'><p>Nov 2020 -  Aug 2022</p></div>
+                            <div className='years md:absolute right-0 top-0'><p>Nov 2020 -  Aug 2022</p></div>
                         </div>
                     </div>
                       <div className="details flex gap-4 text-[var(--main-text-color)]  bg-[var(--main-bg-color)] p-2 m-2 rounded-md">
@@ -63,7 +63,7 @@ function Experience() {
                         <div className="dText relative w-full">
                             <h4 className='text-[18px]'>Betasoft Solutons</h4>
                             <p className='text-[14px]'>Web Designer</p>
-                            <div className='years absolute right-0 top-0'><p>Nov 2019 - Oct 2020</p></div>
+                            <div className='years md:absolute right-0 top-0'><p>Nov 2019 - Oct 2020</p></div>
                         </div>
                     </div>
                     </div>
