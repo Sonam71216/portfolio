@@ -2,8 +2,39 @@ import React, { useState } from 'react'
 import mapImg from '../assets/images/map.png'
 
 function Contact() {
+const handleSubmit = (e) => {
+  e.preventDefault();
 
-  const [formData, setFormData] = useState({
+  const {
+    name,
+    email,
+    phone,
+    projectType,
+    designStage,
+    deadline,
+    message,
+    privacy,
+  } = formData;
+
+  if (
+    !name ||
+    !email ||
+    !phone ||
+    !projectType ||
+    !designStage ||
+    !deadline ||
+    !message ||
+    !privacy
+  ) {
+    alert("Please fill all fields.");
+    return;
+  }
+
+  console.log(formData);
+  alert("Form submitted successfully 🚀");
+
+  // Reset form
+  setFormData({
     name: '',
     email: '',
     phone: '',
@@ -12,28 +43,8 @@ function Contact() {
     deadline: '',
     message: '',
     privacy: false
-  })
-
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target
-    setFormData({
-      ...formData,
-      [name]: type === 'checkbox' ? checked : value
-    })
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-
-    if (!formData.privacy) {
-      alert("Please accept terms & privacy")
-      return
-    }
-
-    console.log(formData)
-    alert("Form submitted successfully 🚀")
-  }
-
+  });
+};
   return (
     <section className='md:py-18 py-8 md:px-6 lg:px-4 px-6' id='contact'>
       <div className='max-w-7xl mx-auto'>
@@ -54,25 +65,27 @@ function Contact() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[var(--main-text-color)]">
                 <div className='py-2'>
                   <label>Name</label>
-                  <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md'
-                    placeholder='Name'
+                 <input
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                  className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md'
+                  placeholder='Name'
                   />
                 </div>
 
                 <div className='py-2'>
                   <label>Email</label>
                   <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md'
-                    placeholder='Email'
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                  className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md'
+                  placeholder='Email'
                   />
                 </div>
               </div>
@@ -85,23 +98,25 @@ function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md bg-[var(--main-color)] text-[#656666]'
+                    required
+                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md'
                     placeholder='Number'
-                  />
+                    />
                 </div>
 
                 <div className='py-2'>
                   <label>Project Type</label>
                   <select
-                    name="projectType"
-                    value={formData.projectType}
-                    onChange={handleChange}
-                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md  bg-[var(--main-color)] text-[#656666]'
+                name="projectType"
+                value={formData.projectType}
+                onChange={handleChange}
+                required
                   >
-                    <option value="">Urgent</option>
-                    <option value="2-4weeks">2-4 Week</option>
-                    <option value="flexible">Flexible</option>
-                  </select>
+                <option value="" disabled>Select Project Type</option>
+                <option value="website">Website Design</option>
+                <option value="ecommerce">E-Commerce</option>
+                <option value="webapp">Web Application</option>
+                </select>
                 </div>
               </div>
 
@@ -126,37 +141,38 @@ function Contact() {
                     name="deadline"
                     value={formData.deadline}
                     onChange={handleChange}
-                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md bg-[var(--main-color)] text-[#656666]'
+                    required
                   >
-                    <option value="" disabled>Select deadline</option>
+                    <option value="" disabled>Select Deadline</option>
                     <option value="urgent">Urgent</option>
                     <option value="2-4weeks">2-4 Weeks</option>
                     <option value="flexible">Flexible</option>
-                  </select>
+                    </select>
                 </div>
               </div>
 
               <div className="grid grid-cols-1 gap-2 text-[var(--main-text-color)]">
                 <div className='py-2'>
-                  <label>Message</label>
                   <textarea
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md'
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                  className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md'
                   />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 gap-2 text-[var(--main-text-color)]">
                 <div className='py-2 pl-1'>
-                  <input
+                 <input
                     type="checkbox"
                     name="privacy"
                     checked={formData.privacy}
                     onChange={handleChange}
+                    required
                     className='accent-[#D3AF37] mr-2'
-                  />
+                    />
                   <label>I have read and accepted terms and privacy</label>
                 </div>
 
