@@ -9,7 +9,7 @@ function Header() {
     <>
       {/* Navbar */}
       <nav className="w-full bg-[var(--main-bg-color)] border-b border-[#3b3215]">
-        <div className="max-w-7xl mx-auto flex items-center justify-between md:px-6 lg:px0 px-6 py-4">
+        <div className="max-w-7xl mx-auto flex items-center justify-between md:px-6 lg:px-0 px-6 py-4">
           
           {/* Logo */}
           <h1 className="text-2xl font-bold text-gray-200">
