@@ -6,7 +6,7 @@ import Pro4 from '../assets/images/web-design.png'
 import Pro5 from '../assets/images/logo-design.png'
 function Projects() {
   return (
-    <section className='py-8 md:py-18  px-4 md:px-0 pro-sec' id='project'>
+    <section className='py-8 md:py-18  md:px-6 lg:px-4 px-6 pro-sec' id='project'>
     <div className='max-w-7xl mx-auto'>
        <div className="mainTitle mb-4">
         <p className='top-line'>SELECTED PROJECTS</p>
