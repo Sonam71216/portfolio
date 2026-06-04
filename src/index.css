@@ -67,8 +67,7 @@ body{background-color: var(--main-color);}
   .mainTitle h1.title{ font-size:40px; line-height:40px;}
 }
 @media only screen and (max-width:840px){
-  .mainTitle h1.title{ font-size:40px; line-height:40px;}
-   .expr-sec .companies-name .dText .years{   display: inline-block;        margin: 4px 0;}
+  .right-side{   display: none;}
 }
 
 @media only screen and (max-width:767px){
