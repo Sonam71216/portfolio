@@ -35,7 +35,7 @@ function Contact() {
   }
 
   return (
-    <section className='md:py-18 py-8 px-4 md:px-0' id='contact'>
+    <section className='md:py-18 py-8md:px-6 lg:px-4 px-6' id='contact'>
       <div className='max-w-7xl mx-auto'>
 
         <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
