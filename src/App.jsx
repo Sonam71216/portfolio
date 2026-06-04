@@ -58,8 +58,8 @@ function App() {
       arrow: arrow
     },
     {
-      title: "Logo Design",
-      desc: "Designing professional logos that communicate brand values clearly, leaving a lasting impression and strengthening brand presence across digital and print media.",
+      title: "E-Commerce Website",
+      desc: "Launch a modern online store that delivers exceptional user experiences, drives conversions, and grows your business faster.",
       icon: logoDesign,
       arrow: arrow
     }
