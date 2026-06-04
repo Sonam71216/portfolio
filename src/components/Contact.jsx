@@ -1,4 +1,3 @@
-```jsx
 import React, { useState } from 'react'
 import mapImg from '../assets/images/map.png'
 
@@ -26,31 +25,6 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    const {
-      name,
-      email,
-      phone,
-      projectType,
-      designStage,
-      deadline,
-      message,
-      privacy
-    } = formData
-
-    if (
-      !name ||
-      !email ||
-      !phone ||
-      !projectType ||
-      !designStage ||
-      !deadline ||
-      !message ||
-      !privacy
-    ) {
-      alert('Please fill all required fields.')
-      return
-    }
-
     console.log(formData)
     alert('Form submitted successfully 🚀')
 
@@ -70,14 +44,17 @@ function Contact() {
     <section className='md:py-18 py-8 md:px-6 lg:px-4 px-6' id='contact'>
       <div className='max-w-7xl mx-auto'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+          
           <div>
             <div className='mainTitle'>
               <p className='top-line text-[14px] md:text-[13px]'>
                 Let's Talk
               </p>
+
               <h1>
                 <span>Let’s Discuss</span> Your Project
               </h1>
+
               <p>
                 Tell me about your project, and I’ll help turn your ideas into
                 effective and well-designed digital solutions.
@@ -91,6 +68,8 @@ function Contact() {
 
           <div className='contactName'>
             <form className='contact-form' onSubmit={handleSubmit}>
+              
+              {/* Name & Email */}
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-[var(--main-text-color)]'>
                 <div className='py-2'>
                   <label>Name *</label>
@@ -119,11 +98,12 @@ function Contact() {
                 </div>
               </div>
 
+              {/* Phone & Project Type */}
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-[var(--main-text-color)]'>
                 <div className='py-2'>
                   <label>Phone *</label>
                   <input
-                    type='text'
+                    type='tel'
                     name='phone'
                     value={formData.phone}
                     onChange={handleChange}
@@ -140,7 +120,7 @@ function Contact() {
                     value={formData.projectType}
                     onChange={handleChange}
                     required
-                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md'
+                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md bg-[var(--main-color)] text-[#656666]'
                   >
                     <option value=''>Select Project Type</option>
                     <option value='website'>Website Design</option>
@@ -151,6 +131,7 @@ function Contact() {
                 </div>
               </div>
 
+              {/* Design Stage & Deadline */}
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-[var(--main-text-color)]'>
                 <div className='py-2'>
                   <label>Design Stage *</label>
@@ -159,7 +140,7 @@ function Contact() {
                     value={formData.designStage}
                     onChange={handleChange}
                     required
-                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md'
+                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md bg-[var(--main-color)] text-[#656666]'
                   >
                     <option value=''>Select Design Stage</option>
                     <option value='idea'>Just an Idea</option>
@@ -175,7 +156,7 @@ function Contact() {
                     value={formData.deadline}
                     onChange={handleChange}
                     required
-                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md'
+                    className='w-full p-2 border-2 border-[var(--main-bg-color)] rounded-md bg-[var(--main-color)] text-[#656666]'
                   >
                     <option value=''>Select Deadline</option>
                     <option value='urgent'>Urgent</option>
@@ -185,6 +166,7 @@ function Contact() {
                 </div>
               </div>
 
+              {/* Message */}
               <div className='grid grid-cols-1 gap-2 text-[var(--main-text-color)]'>
                 <div className='py-2'>
                   <label>Message *</label>
@@ -200,6 +182,7 @@ function Contact() {
                 </div>
               </div>
 
+              {/* Privacy */}
               <div className='grid grid-cols-1 gap-2 text-[var(--main-text-color)]'>
                 <div className='py-2 pl-1'>
                   <input
@@ -210,6 +193,7 @@ function Contact() {
                     required
                     className='accent-[#D3AF37] mr-2'
                   />
+
                   <label>
                     I have read and accepted the Terms & Privacy Policy *
                   </label>
@@ -224,8 +208,10 @@ function Contact() {
                   </button>
                 </div>
               </div>
+
             </form>
           </div>
+
         </div>
       </div>
     </section>
@@ -233,4 +219,3 @@ function Contact() {
 }
 
 export default Contact
-```
