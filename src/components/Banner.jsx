@@ -8,7 +8,7 @@ function Banner() {
     <div className="flex justify-center items-center">
     <div className="mainTitle py-9 ">
       <p className='top-line'>HELLO, I'M SONAM</p>
-      <h1 className='title  text-[35px] md:text-[50px] lg:text-[60px]'>Frontend Developer & <span>UI/UX </span>Designer</h1>
+      <h1 className='title  text-[35px] sm:text-[50px] md:text-[60px]'>Frontend Developer & <span>UI/UX </span>Designer</h1>
       <p className='pt-4'>I deliver user-focused designs and scalable web solutions that enhance user experience, improve performance, and drive meaningful business results effectively.</p>
     <button className='bg-[var(--main-btn-color)] p-[10px_25px] my-6 mr-2 text-[var(--btn-text-color)] rounded-sm border-1
     hover:border-1 hover:bg-transparent hover:text-[var(--main-text-color)] rounded-md hover:bg-transparent transition duration-500'> <a href="#contact">View My Work</a></button>
