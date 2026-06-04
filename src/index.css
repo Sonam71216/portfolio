@@ -63,6 +63,10 @@ body{background-color: var(--main-color);}
 
 
 /**---------------media-queries-------------------**/
+@media only screen and (max-width:991px){
+  .mainTitle h1{ font-size:40px; line-height:40px;}
+}
+
 @media only screen and (max-width:767px){
    .mainTitle h1{ font-size:36px; line-height:40px;}
    .mainTitle h1.title{ font-size:36px; line-height:40px;}
