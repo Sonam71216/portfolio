@@ -86,7 +86,7 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr] ">
             <div className="mainTitle">
-              <h1 text-[36px] md:text-[60px]>
+              <h1 className='text-[36px] md:text-[60px]'>
                 <span className='text-[var(--main-btn-color)] text-center md:text-left'>
                   Let’s Build
                 </span> Something Great Together!
