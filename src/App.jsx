@@ -35,7 +35,7 @@ function App() {
     },
     {
       title: "Website Design",
-      desc: "Website Design </h3> <p>I create visually appealing website designs that reflect brand identity, ensuring clean layouts, modern aesthetics, and a user-friendly browsing experience for users.",
+      desc: "I create visually appealing website designs that reflect brand identity, ensuring clean layouts, modern aesthetics, and a user-friendly browsing experience for users.",
       icon: websiteDesign,
       arrow: arrow
     },
