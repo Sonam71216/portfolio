@@ -46,8 +46,8 @@ function App() {
       arrow: arrow
     },
     {
-      title: "Responsive Design",
-      desc: "I design and optimize websites to work flawlessly across all screen sizes, ensuring consistent user experience on desktops, tablets, and mobile devices.",
+      title: "Redesign Website",
+      desc: "Transform your outdated website into a modern, responsive, visually stunning, and user-focused digital experience that boosts engagement, credibility, and business growth.",
       icon: serImg,
       arrow: arrow
     },
