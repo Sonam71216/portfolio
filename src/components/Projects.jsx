@@ -16,23 +16,23 @@ function Projects() {
                 <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-4">
                     <div className="pro-box mb-4 relative">
                       <img src={Pro1} className="w-[100%] rounded-4" alt="" />
-                    <p className='absolute'>Mobile Application</p>
+                    <p className='absolute'>Website Design</p>
                     </div>
                     <div className="pro-box mb-4 relative">
                       <img src={Pro2} className="w-[100%] rounded-4" alt="" />
-                      <p className='absolute'>Mobile Application</p>
+                      <p className='absolute'>E-Commerce Website</p>
                       </div>
                     <div className="pro-box mb-4 relative">
                       <img src={Pro3} className="w-[100%] rounded-4" alt="" />
-                    <p className='absolute'>Social Media Post</p>
+                    <p className='absolute'>Admin Panel</p>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="pro-box relative"><img src={Pro5} className="w-[100%] rounded-4" alt="" />
-                    <p className='absolute'>Logo Design</p>
+                    <p className='absolute'>Real Estate Website</p>
                     </div>
                     <div className="pro-box relative"><img src={Pro4} className="w-[100%] rounded-4" alt="" />
-                    <p className='absolute'>Web App Design</p>
+                    <p className='absolute'>Mobile Application</p>
                     </div>
                    
                 </div>
