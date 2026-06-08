@@ -13,17 +13,17 @@ function Projects() {
                     <h1><span>My work,</span> your next inspiration.</h1>
                     <p>Explore projects that combine creativity, functionality, and user-focused design to deliver meaningful digital experiences.</p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-4">
                     <div className="pro-box mb-4 relative">
-                      <img src={Pro1} className="w-[100%]" alt="" />
+                      <img src={Pro1} className="w-[100%] rounded-4" alt="" />
                     <p className='absolute'>Mobile Application</p>
                     </div>
                     <div className="pro-box mb-4 relative">
-                      <img src={Pro2} className="w-[100%]" alt="" />
+                      <img src={Pro2} className="w-[100%] rounded-4" alt="" />
                       <p className='absolute'>Mobile Application</p>
                       </div>
                     <div className="pro-box mb-4 relative">
-                      <img src={Pro3} className="w-[100%]" alt="" />
+                      <img src={Pro3} className="w-[100%] rounded-4" alt="" />
                     <p className='absolute'>Social Media Post</p>
                     </div>
                 </div>
