@@ -1,5 +1,5 @@
 import React from 'react'
-import Pro1 from '../assets/images/website2.png'
+import Pro1 from '../assets/images/website2.jpg'
 import Pro2 from '../assets/images/e-commerce.png'
 import Pro3 from '../assets/images/dashboard.jpg'
 import Pro4 from '../assets/images/splash-srceen.jpg'
