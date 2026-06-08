@@ -42,7 +42,7 @@ function Experience() {
                     <div className='com-area bg-[var(--main-color)] rounded-md p-4'>
                          <h3 className='text-[var(--main-text-color)] text-2xl text-medium'>Work experiences</h3>
                         <p className='text-[var(--main-text-color)]'>I’ve spent over 5 years designing products for startups, SaaS companies, and enterprise clients. From creating MVPs to building design systems.</p>
-                    <div className="details flex gap-4 text-[var(--main-text-color)] bg-[var(--main-bg-color)] p-2 m-2 rounded-md">
+                    <div className="details flex gap-4 text-[var(--main-text-color)] bg-[var(--main-bg-color)] p-2 pb-4 m-2 rounded-md">
                         <img src={com1} alt="" className='size-12'/>
                         <div className="dText relative w-full">
                             <h4 className='text-[18px]'>Hitbullseye</h4>
