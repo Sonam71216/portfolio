@@ -3,7 +3,7 @@ import Pro1 from '../assets/images/app-desgin.png'
 import Pro2 from '../assets/images/e-commerce.png'
 import Pro3 from '../assets/images/sm-posts.png'
 import Pro4 from '../assets/images/splash-srceen.jpg'
-import Pro5 from '../assets/images/logo-design.png'
+import Pro5 from '../assets/images/web-design1.png'
 function Projects() {
   return (
     <section className='py-8 md:py-18  md:px-6 lg:px-4 px-6 pro-sec' id='project'>
