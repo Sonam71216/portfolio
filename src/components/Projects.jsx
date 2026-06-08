@@ -2,7 +2,7 @@ import React from 'react'
 import Pro1 from '../assets/images/app-desgin.png'
 import Pro2 from '../assets/images/e-commerce.png'
 import Pro3 from '../assets/images/sm-posts.png'
-import Pro4 from '../assets/images/splash-srceen.png'
+import Pro4 from '../assets/images/splash-srceen.jpg'
 import Pro5 from '../assets/images/logo-design.png'
 function Projects() {
   return (
