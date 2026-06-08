@@ -28,10 +28,10 @@ function Projects() {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="pro-box relative"><img src={Pro5} alt="" />
+                    <div className="pro-box relative"><img src={Pro5} className="w-[100%] rounded-4" alt="" />
                     <p className='absolute'>Logo Design</p>
                     </div>
-                    <div className="pro-box relative"><img src={Pro4} alt="" />
+                    <div className="pro-box relative"><img src={Pro4} className="w-[100%] rounded-4" alt="" />
                     <p className='absolute'>Web App Design</p>
                     </div>
                    
