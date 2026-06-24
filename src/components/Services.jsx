@@ -2,7 +2,7 @@ import React from 'react'
 
 function Services({ title, subtitle, description, servicesData }) {
     return (
-        <div className='service-sec py-8 md:px-6 lg:px-4 px-6 md:py-18' id="services">
+        <div className='service-sec py-8 md:px-6 lg:px-4 px-6 md:py-20' id="services">
             <div className="max-w-7xl mx-auto">
 
                 <div className="mainTitle">
