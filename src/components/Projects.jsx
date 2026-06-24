@@ -16,7 +16,7 @@ function Projects() {
                 <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-4">
                     <div className="pro-box mb-4 relative">
                       <img src={Pro1} className="w-[100%] rounded-4" alt="" />
-                    <p className='absolute'>Website Design</p>
+                    <p className='absolute'>IT Services Website Design</p>
                     </div>
                     <div className="pro-box mb-4 relative">
                       <img src={Pro2} className="w-[100%] rounded-4" alt="" />
