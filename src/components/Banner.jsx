@@ -11,7 +11,7 @@ function Banner() {
       <h1 className='title  text-[35px] md:text-[60px]'>Frontend Developer & <span>UI/UX </span>Designer</h1>
       <p className='pt-4'>I deliver user-focused designs and scalable web solutions that enhance user experience, improve performance, and drive meaningful business results effectively.</p>
     <button className='bg-[var(--main-btn-color)] p-[10px_25px] my-6 mr-2 text-[var(--btn-text-color)] rounded-sm border-1
-    hover:border-1 hover:bg-transparent hover:text-[var(--main-text-color)] rounded-md hover:bg-transparent transition duration-500'> <a href="#contact">View My Work</a></button>
+    hover:border-1 hover:bg-transparent hover:text-[var(--main-text-color)] rounded-md hover:bg-transparent transition duration-500'> <a href="#project">View My Work</a></button>
     <button className='border p-[10px_25px] rounded-md bg-transparent hover:bg-[var(--main-btn-color)] hover:text-black transition duration-500'>Download CV</button>
     </div>
     <div className='md:block w-full mx-auto hidden right-side'>
