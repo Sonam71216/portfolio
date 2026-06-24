@@ -14,7 +14,7 @@ function Projects() {
                     <p>Explore projects that combine creativity, functionality, and user-focused design to deliver meaningful digital experiences.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-4">
-                  <a href="https://www.figma.com/proto/QSKv3u4sT2s1zXxstmlhsf/Untitled?node-id=422-443&t=0C3Y6E1ufiIJowA1-0&scaling=min-zoom&content-scaling=fixed&page-id=403%3A247" target="_blank">
+                  <a href="https://www.figma.com/proto/QSKv3u4sT2s1zXxstmlhsf/Untitled?node-id=3-3&p=f&t=Qp1viC2aXQkeYoWQ-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1" target="_blank">
                     <div className="pro-box mb-4 relative">
                       <img src={Pro1} className="w-[100%] rounded-4" alt="" />
                     <p className='absolute'>IT Services Website Design</p>
