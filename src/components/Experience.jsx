@@ -31,7 +31,7 @@ function Experience() {
                     <p>I’ve worked with teams of all sizes, from agencies to individual projects. No matter the scale, I focus on bringing clarity, structure, and a user-centered approach to every design.</p>
                     <p>Over time, I’ve built skills in research, product thinking, and visual design. I make decisions with empathy and use data when needed. I’ve helped plan projects, supported team members, and worked on design systems. I see every project as a chance to learn, grow, and create meaningful digital experiences.</p>
                  </div>
-                 <div className="rightBox bg-[var(--main-btn-color)] rounded-sm 2/5">
+                 <div className="rightBox bg-[var(--main-btn-color)] rounded-sm 2/5 text-center">
                     <img src={ProfileImg} alt="" />
                  </div>
                 </div>
