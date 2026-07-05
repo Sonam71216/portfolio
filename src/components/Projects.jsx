@@ -4,6 +4,7 @@ import Pro2 from "../assets/images/e-commerce.png";
 import Pro3 from "../assets/images/dashboard.jpg";
 import Pro4 from "../assets/images/splash-srceen.jpg";
 import Pro5 from "../assets/images/web-design1.png";
+import Pro6 from "../assets/images/food-website.jpg"
 
 function Projects() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -29,6 +30,10 @@ function Projects() {
     {
       img: Pro4,
       title: "Mobile Application",
+    },
+     {
+      img: Pro6,
+      title: "Food Website",
     },
   ];
 
