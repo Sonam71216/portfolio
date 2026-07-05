@@ -39,7 +39,7 @@ body{background-color: var(--main-color);}
 
 /*-----------------services-end----------------*/
 .pro-sec .pro-box img{  border: 1px solid #5a5a5a; border-radius:10px; }
-.pro-sec .pro-box p {top:10px; left:10px;     background-color: #d5bc73;    border-radius: 30px;    display: inline;
+.pro-sec .pro-box p {top:10px; left:10px;     background-color: #d5bc73;    border-radius: 30px;    display: inline-table;
     font-size: 14px;    padding: 2px 15px;    border: 1px solid #d3af37;}
 
 /*-----------------experience----------------*/
