@@ -12,7 +12,7 @@ function Projects() {
     {
       img: Pro1,
       title: "IT Services Website Design",
-      link: "https://www.figma.com/proto/QSKv3u4sT2s1zXxstmlhsf/Untitled?node-id=3-3&p=f&t=Qp1viC2aXQkeYoWQ-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1",
+      link: "#",
     },
     {
       img: Pro2,
